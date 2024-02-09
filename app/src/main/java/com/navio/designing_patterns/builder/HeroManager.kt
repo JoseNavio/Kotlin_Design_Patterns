@@ -2,7 +2,6 @@ package com.navio.designing_patterns.builder
 
 class HeroManager {
 
-
     fun createSuperman(): Hero {
         return HeroBuilder()
             .setName("Superman")

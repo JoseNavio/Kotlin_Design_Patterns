@@ -1,14 +1,14 @@
 package com.navio.designing_patterns.singleton
 
 //We use the singleton pattern when we want to create an object that can only have one instance.
-class Config private constructor() {
+class Singleton private constructor() {
 
     var name: String = ""
 
     companion object {
 
-        val instance: Config by lazy {
-            Config()
+        val instance: Singleton by lazy {
+            Singleton()
         }
 
 //        private val instance: Config by lazy {
